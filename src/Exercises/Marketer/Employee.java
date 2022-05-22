@@ -1,8 +1,18 @@
 package Exercises.Marketer;
 
 public class Employee {
+    protected double getHours;
+    protected  double salary;
+    protected  int vacation;
+
+
     protected double getSalary() {
-        double salary = 40000;
+
         return salary;
+    }
+
+    protected int getVacTime() {
+
+        return vacation;
     }
 }
