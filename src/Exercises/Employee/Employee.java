@@ -1,7 +1,7 @@
-package Exercises.Marketer;
+package Exercises.Employee;
 
 public class Employee {
-    protected double getHours;
+    protected int getHours;
     protected  double salary;
     protected  int vacation;
 
@@ -14,5 +14,10 @@ public class Employee {
     protected int getVacTime() {
 
         return vacation;
+    }
+
+    protected String getVacationForm() {
+        return "pinkpinkpinkpink";
+
     }
 }

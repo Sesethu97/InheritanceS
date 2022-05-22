@@ -1,5 +1,7 @@
 package Exercises.Marketer;
 
+import Exercises.Employee.Employee;
+
 /*
  * Write the class Marketer to accompany the other law firm classes described in this chapter.
  * Marketers make $50,000 ($10,000 more than general employees) and have an additional method
